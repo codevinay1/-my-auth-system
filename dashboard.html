@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Google Fonts (Montserrat & Open Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-box">
+            <h1 class="dashboard-title">Welcome to Your Dashboard!</h1>
+            <p class="dashboard-message">You are logged in as: <span id="user-email"></span></p>
+            <p class="dashboard-content">This is your secured content. Only authenticated users can see this page.</p>
+            <button id="logout-btn" class="button logout-button">Logout</button>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="auth.js"></script>
+</body>
+</html>
